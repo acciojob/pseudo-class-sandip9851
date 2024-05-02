@@ -1,13 +1,16 @@
 /*  your css code here. If applicable */
-#container{
-	margin:20px;
-	
-	font-size:20px;
-	
+#container {
+    margin: 20px;
 }
-p{
-	display:inline;
+
+#container::before {
+    content: "Before Element";
+    color: #f00;
+    font-size: 20px;
 }
-span{
-	color:#f00;
+
+#container::after {
+    content: "After Element";
+    color: #f00;
+    font-size: 20px;
 }
